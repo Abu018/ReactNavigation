@@ -1,0 +1,69 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f4f8;
+}
+
+.navigation-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-docs {
+    background-color: #ddd;
+}
+
+.btn-try-it {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.examples-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.example-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-placeholder {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.example-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
